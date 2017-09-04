@@ -1,0 +1,79 @@
+.Title {
+  text-align: Center;
+  font-size: 40px;
+}
+
+.flowerPot {
+  background-image: url("https://pbs.twimg.com/profile_images/484406564527169536/bLry4PxQ.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.textPot {
+  background-color: #ffffff;
+  opacity: .3;
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+  font-size: 25px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textPot:hover {
+  opacity: .8;
+}
+
+.shoutOut {
+  background: #BBB;
+  font-size: 20px;
+  height: 400px;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 1em;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+}
+#formInput {
+  text-align: right;
+  width: 71%;
+}
+#user_message {
+  width: 380px;
+  height: 250px;
+  border-radius: 1em;
+  resize: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  text-align: left;
+}
+#recipient_message {
+  border-radius: 1px;
+  resize: none;
+  font-size: 15px;
+  height: 20px;
+}
+#from_message {
+  border-radius: 1px;
+  resize: none;
+  font-size: 16px;
+  height: 20px;
+}
+button {
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
